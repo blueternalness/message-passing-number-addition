@@ -4,8 +4,5 @@
 #SBATCH --ntasks=4
 #SBATCH --output=p1_result.out
 
-# Compile the program
 make p1
-
-# Run the MPI program
 srun ./p1
